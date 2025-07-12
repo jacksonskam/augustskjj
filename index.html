@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - augustskjj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6795c9;
+        }
+
+        .header {
+            background-color: aliceblue;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .header a {
+            color: blue;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px;
+        }
+
+        .left-images, .right-images {
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .left-images img, .right-images img {
+            width: 150%;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aliceblue;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .image-content {
+            margin: 10px;
+        }
+
+        .image-content img {
+            max-width: 150px;
+            border-radius: 5px;
+        }
+
+        .text-content {
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="under_construction.html">Cool Stuff</a>
+        <a href="under_construction.html">Tech</a>
+        <a href="under_construction.html">About</a>
+        <a href="under_construction.html">Contact</a>
+        <a href="under_construction.html">Changelog</a>
+    </div>
+
+    <div class="container">
+        <div class="left-images" style="margin-right: 50px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Jimi_Hendrix_Colorized.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg" alt="Left Image 2">
+        </div>
+
+        <div class="content">
+            <div class="image-content">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzc1MTl2b2wxbnRjc3J1N2F1bXQ2ems0ZTBrd2Z0dW8wbGxqbmhiMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/90lfpTbzew85rCbQME/giphy.gif" alt="Vote for Zohran!">
+            </div>
+            <div class="text-content">
+                <h1>augustskjj</h1>
+                <p>Welcome to my website!</p>
+                <p>Feel free to look around and check out some of the things I'm working on.</p>
+                <p>All opinions I share here are mine.</p>
+            </div>
+        </div>
+
+        <div class="right-images" style="margin-left: 50px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mk.gee_Dallas_2024_1_%28cropped%29.jpg/800px-Mk.gee_Dallas_2024_1_%28cropped%29.jpg" alt="Right Image 1">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Rosa_Luxemburg.jpg" alt="Right Image 2">
+        </div>
+    </div>
+</body>
+</html>
